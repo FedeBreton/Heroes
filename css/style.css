@@ -1,0 +1,137 @@
+* {
+  font-family: "roboto", sans-serif;
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+.descuento {
+  background-color: #1cd1b0;
+  padding: 10px 0px 10px 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1 {
+  background-color: #00669f;
+  padding: 28px 0px 26px 28px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.cards {
+  margin: 150px 32px;
+}
+.tarjeta {
+  width: 300px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.card-head {
+  position: relative;
+  height: 193px;
+}
+.card-head .img-corazon {
+  position: absolute;
+  top: 17px;
+  left: 21px;
+}
+.card-head .img-batman {
+  position: absolute;
+  top: 127px;
+  left: 90px;
+  border-radius: 100%;
+}
+.card-body {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 73px 17px 20px 16px;
+}
+.card-body h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.card-body p {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: left;
+}
+.card-body .btn-vermas {
+  padding: 15px 37px;
+  background-color: #00669f;
+  display: inline-block;
+  margin-top: 32px;
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background-color: #00669f;
+}
+.footer {
+  padding: 16px 0px 16px 32px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* @media (min-width: 460px) {
+  main {
+    background-color: chartreuse;
+  }
+  .card-body p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+  }
+  .card-body p {
+    font-size: 3rem;
+  } */
+
+form {
+  /* width: 925px; */
+  background-color: #00669f;
+  color: white;
+  padding: 20px;
+  border-radius: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fila {
+  display: flex;
+  gap: 5px;
+}
+.columna {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+.boton {
+  background-color: #00669f;
+  padding: 10px 15px;
+  /* color: white; */
+  cursor: pointer;
+  /* font-size: 20px; */
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 700px;
+  left: 1900px;
+}
+.botonmas {
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
